@@ -1,4 +1,4 @@
-Hello World! code sample
+Hello World! code sample - VS2017
 
 ** Do Github missing liraries **
 

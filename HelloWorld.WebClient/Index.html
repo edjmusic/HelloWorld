@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Eric Johansen's Hello World!</title>
+    <script class="include" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <h1 id="h1MsgContent"></h1>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            var url = "http://localhost:58168/api/HelloWorld/GetHelloWorld";
+
+            $.ajax({
+                type: "GET",
+                dataType: 'json',
+                url: url,
+                async: false,
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    if (data !== undefined) {
+                        $('#h1MsgContent').text(data.Content);
+                    }
+                    else {
+                        $('#h1MsgContent').text("no data from AJAX call");
+                    }
+                    
+                }
+            });
+
+        });
+
+
+    </script>
+
+</body>
+</html>

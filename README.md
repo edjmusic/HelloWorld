@@ -1,3 +1,8 @@
+Hello World! code sample
+** Do Gethub missing liraries **
+** Do Rebuild Solution **
+
+
 Write a ‘Hello World’ program. 
 a.	The program has 1 current business requirement – write “Hello World” to the console/screen. 
 	i.	Web Browser – 

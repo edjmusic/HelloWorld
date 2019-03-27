@@ -19,7 +19,8 @@ a.	The program has 1 current business requirement – write “Hello World” to
 
 b.	The program should have an API that is separated from the program logic to eventually support mobile applications, web applications, or console applications, or windows services. 
 
-	i.	The API returns JSON formatted date from a RESTful web service. This is an industry standard that span many environments.
+	i.	The API returns JSON formatted date from a RESTful web service. This is an industry standard 
+	that span many environments.
 
 
 c.	The program should support future enhancements for writing to a database, console application, etc. 

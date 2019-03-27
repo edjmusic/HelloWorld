@@ -1,5 +1,5 @@
 Hello World! code sample
-** Do Gethub missing liraries **
+** Do Github missing liraries **
 ** Do Rebuild Solution **
 
 

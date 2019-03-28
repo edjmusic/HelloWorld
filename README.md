@@ -1,6 +1,6 @@
 Hello World! code sample - VS2017
 
-** Do Nuget missing liraries **
+** Do Nuget missing packages **
 
 ** Do Rebuild Solution **
 

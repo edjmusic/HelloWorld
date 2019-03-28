@@ -1,6 +1,6 @@
 Hello World! code sample - VS2017
 
-** Do Github missing liraries **
+** Do Nuget missing liraries **
 
 ** Do Rebuild Solution **
 
